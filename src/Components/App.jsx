@@ -1,10 +1,11 @@
-
+import Bienvenido from './Bienvenido/Bienvenido'
+import './app.css'
 
 function App() {
   
   return (
     <div className="App">
-      <h1>Hola</h1>
+      <Bienvenido></Bienvenido>
     </div>
   );
 }

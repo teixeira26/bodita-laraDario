@@ -1,0 +1,9 @@
+Titulos - H4 'Montserrat', sans-serif;
+
+Texto - p 'Old Standard TT', serif 18px;
+
+Texto footer - 12px 'Old Standard TT'
+
+
+Colors - #D1B165  Naranja
+#83A26D Verde
