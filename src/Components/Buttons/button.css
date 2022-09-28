@@ -1,0 +1,27 @@
+.verde{
+    background-color: #83A26D;
+    border: 1px solid #83A26D;
+    border-radius: 30px;
+    color: white;
+    font-weight: bolder;
+    transition: all .3s;
+}
+
+.blanco{
+    background-color: white;
+    border: 1px solid #83A26D;
+    border-radius: 30px;
+    color: #83A26D;
+    font-weight: bolder;
+    transition: all .3s;
+}
+
+.blanco:hover{
+    background-color: #83A26D;
+    color: white;
+}
+
+.verde:hover{
+    background-color: white;
+    color: #83A26D;
+}

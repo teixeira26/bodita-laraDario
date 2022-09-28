@@ -1,0 +1,17 @@
+.containerCardMapa{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 40vw;
+    margin: 2vh 7vw;
+}
+
+.containerCardMapa img{
+    width: 150px;
+}
+
+.containerCardMapa p{
+    text-align: center;
+}

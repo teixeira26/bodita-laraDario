@@ -15,5 +15,15 @@ h4{
     letter-spacing: 5px;
     font-size: 22px;
 }
-
+ button{
+    font-family: 'Montserrat', sans-serif;
+    padding: 10px 40px;
+    font-size: 22px;
+    font-size: 1rem;
+    line-height: 1.5;
+    
+ }
+.iconos{
+    display: flex;
+}
 
