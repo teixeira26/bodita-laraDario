@@ -25,5 +25,6 @@ h4{
  }
 .iconos{
     display: flex;
+    margin-top: 100px;
 }
 

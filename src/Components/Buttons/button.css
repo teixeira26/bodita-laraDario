@@ -20,6 +20,7 @@
 .blanco:hover{
     background-color: #83A26D;
     color: white;
+    border: 1px solid white;
 }
 
 .verde:hover{

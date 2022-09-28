@@ -1,0 +1,26 @@
+.galeriaContainer{
+    display: grid;
+    width: 90vw;
+    height: 90vh;
+    grid-template-columns: repeat(4, auto);
+    grid: repeat(2, auto);
+    grid-gap: 5px;
+}
+
+.galeriaContainer img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    transition: all .4s;
+}
+
+.galeriaContainer img:hover{
+    transform: scale(1.1);
+}
+
+.galeriaSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
