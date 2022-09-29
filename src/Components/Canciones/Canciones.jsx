@@ -7,7 +7,7 @@ const Canciones =()=>{
             <div className="asistenciaContainer">
             <h4>¿QUÉ CANCIONES NO PUEDEN FALTAR?</h4>
             <p>¡Ayudanos sugiriendo las canciones que pensás que no pueden faltar en la fiesta!</p>
-            <Button template='verde' texto='SUGERIR CANCIÓN' url=''></Button>
+            <Button template='verde' texto='SUGERIR CANCIÓN' url='https://forms.gle/EkXjAq3jdLNkQpcx7'></Button>
             </div>
         </section>
     )
