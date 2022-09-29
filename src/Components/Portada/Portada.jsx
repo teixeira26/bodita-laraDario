@@ -2,8 +2,8 @@ import './portada.css'
 const Portada = ()=>{
     return(
         <section>
-            <div>
-                <img className="portada" src="assets/portada.jpg" alt="portada" />
+            <div className='portada'>
+                <img className="" src="./assets/portada.jpeg" alt="portada" />
             </div>
         </section>
     )

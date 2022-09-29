@@ -1,0 +1,14 @@
+.graciasContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+    color: white;
+
+
+}
+
+.graciasSection{
+    background-color:#D1B165 ;
+}
