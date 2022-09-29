@@ -1,0 +1,16 @@
+.footerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    
+
+}
+.footerContainer p{
+    font-size: 12px;
+    margin-top: 10px;
+}
+.footerSection{
+    background-color:#666666 ;
+}

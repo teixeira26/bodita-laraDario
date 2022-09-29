@@ -1,16 +1,19 @@
-.portada{
-    object-fit: contain;
-    width: 100vw;
-    height: 100%;
+.redSocialContainer{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    padding: 100px;
     background-image: url('../../../public/assets/portada.jpg');
     background-attachment: fixed;
     background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    
+    height: 80vh;
 }
-.portada img{
-    margin:100px;
+.redSocialContainer p{
+    text-align: center;
+}
+
+.redSocialContainer img{
+    width: 150px;
 }

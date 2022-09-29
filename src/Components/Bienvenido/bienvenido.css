@@ -6,9 +6,11 @@
     align-items: center;
     flex-direction: column;
     color: white;
-    width: 100%;
+    width: 100vw;
     background-color: #83A26D;
     padding: 50px;
 }
-
+.sectionBienvenidos{
+    background-color: #83A26D ;
+}
 

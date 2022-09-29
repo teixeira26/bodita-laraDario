@@ -8,12 +8,14 @@ p{
     font-size: 18px;
     font-family: 'Old Standard TT', serif;
     font-style: italic;
+    text-align: center;
 }
 
 h4{
     font-family: 'Montserrat', sans-serif;
     letter-spacing: 5px;
     font-size: 22px;
+    text-align: center;
 }
  button{
     font-family: 'Montserrat', sans-serif;
