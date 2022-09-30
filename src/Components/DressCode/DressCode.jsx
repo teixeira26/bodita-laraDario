@@ -1,4 +1,3 @@
-
 import './dressCode.css'
 
 const DressCode =()=>{
@@ -6,7 +5,7 @@ const DressCode =()=>{
         <section className="dressCodeSection">
             <div className="dressCodeContainer">
             <h4>DRESS CODE</h4>
-            <p>Formal, elegante</p>
+            <p>Como te sientas mas comodo!</p>
             </div>
         </section>
     )

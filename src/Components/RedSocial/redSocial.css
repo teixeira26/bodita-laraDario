@@ -6,7 +6,8 @@
     padding: 100px;
     background-image: url('../../../public/assets/portada.jpg');
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
+    background-position-x: center;
     
     height: 80vh;
 }

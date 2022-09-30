@@ -1,28 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Old+Standard+TT&display=swap');
 
-body{
+body {
     margin: 0;
 }
 
-p{
+p {
     font-size: 18px;
     font-family: 'Old Standard TT', serif;
     font-style: italic;
     text-align: center;
 }
 
-h4{
-    font-family: 'Montserrat', sans-serif;
-    letter-spacing: 5px;
-    font-size: 22px;
+h4 {
+    /* font-family: 'Montserrat', sans-serif; */
     text-align: center;
+    letter-spacing: 4px;
+    font-size: 22px;
+    /* font-weight: 900; */
 }
- button{
+
+button {
     font-family: 'Montserrat', sans-serif;
     padding: 10px 40px;
     font-size: 22px;
     font-size: 1rem;
     line-height: 1.5;
+
     
  }
 .iconos{

@@ -4,7 +4,7 @@ const Footer =()=>{
     return(
         <section className="footerSection">
             <div className="footerContainer">
-            <p>Bodita de Flor y marido. Todos los derechos reservados</p>
+            <p> Flopi & Luqui. Hecho con ♥. Todos los derechos reservados</p>
             </div>
         </section>
     )
