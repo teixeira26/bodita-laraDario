@@ -1,8 +1,16 @@
 import './redSocial.css';
 import Button from "../Buttons/Button";
+import { useEffect, useRef } from 'react';
 
 const RedSocial=()=>{
-    
+    const redSocial = useRef()
+    useEffect(()=>{
+        window.addEventListener('scroll', ()=>{
+            let posicionScrollY = window.pageYOffset;
+            // console.log(posicionScrollY);
+            redSocial.current.style.backgroundPositionY = redSocial.current.getBoundingClientRect().top<0? -(redSocial.current.getBoundingClientRect().top) *0.3+"px":-((redSocial.current.getBoundingClientRect().top) *0.3)+"px"
+        })
+    },[])
     return(
         <section>
             <div className="redSocialContainer">

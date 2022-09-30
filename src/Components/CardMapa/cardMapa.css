@@ -1,17 +1,30 @@
 .containerCardMapa{
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: white;
-    width: 40vw;
+    width: 35vw;
     margin: 2vh 7vw;
 }
 
+
 .containerCardMapa img{
     width: 150px;
+    display: block;
 }
 
 .containerCardMapa p{
     text-align: center;
+    display: block;
+}
+
+
+
+@media only screen and (max-width: 550px) {
+    .containerCardMapa{
+        width: 80% !important;
+        
+    }
 }

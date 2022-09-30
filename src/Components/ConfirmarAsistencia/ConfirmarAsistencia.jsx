@@ -7,7 +7,7 @@ const ConfirmarAsistencia =()=>{
             <div className="asistenciaContainer">
             <h4>CONFIRMACIÓN DE ASISTENCIA</h4>
             <p>Esperamos que seas parte de este gran día para nosotros.</p>
-            <Button template='verde' texto='CONFIRMAR ASISTENCIA' url=''></Button>
+            <Button template='verde' texto='CONFIRMAR ASISTENCIA' url='https://forms.gle/TEu1meqxR1qMgrncA'></Button>
             </div>
         </section>
     )
