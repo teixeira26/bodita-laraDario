@@ -11,7 +11,7 @@ const Regalos =()=>{
     return(
         <section className="regalosSection">
             <div>
-                <img src="./assets/icono-regalo.svg" alt="" />
+                <img src="./assets/icono-regalo.svg" alt="" draggable={false}/>
                 <p>El mejor regalo es tu presencia, pero si deseás obsequiarnos algo...</p>
                 <Button texto='VER MÁS' template='blanco'  onclick={abrirModal}></Button>
                 {modalActive&&

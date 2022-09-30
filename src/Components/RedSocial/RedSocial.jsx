@@ -7,14 +7,14 @@ const RedSocial=()=>{
     useEffect(()=>{
         window.addEventListener('scroll', ()=>{
             let posicionScrollY = window.pageYOffset;
-            console.log(posicionScrollY);
-            redSocial.current.style.backgroundPositionY = -(posicionScrollY*0.3  )+"px"
+            // console.log(posicionScrollY);
+            redSocial.current.style.backgroundPositionY = redSocial.current.getBoundingClientRect().top<0? -(redSocial.current.getBoundingClientRect().top) *0.3+"px":-((redSocial.current.getBoundingClientRect().top) *0.3)+"px"
         })
     },[])
     return(
         <section>
             <div className="redSocialContainer" ref={redSocial}>
-            <img src="./assets/icono-instagram.svg" alt="" />
+            <img src="./assets/icono-instagram.svg" alt="" draggable={false}/>
             <h4>#FLORCHUYMARIDO</h4>
             <p>"¡Preparate para nuestro gran día!"
             <br/>

@@ -8,7 +8,7 @@
     background-image: url('../../../public/assets/portada.jpg');
     background-attachment: fixed;
     background-size: cover;
-    
+    background-position-x: center;
 }
 
 .image{
@@ -16,6 +16,20 @@
     margin-top: -60px;
 }
 
+@media (max-width:780px) {
+    .image{
+        width: 60vw;
+    }
+}
+
+@media (max-width:533px) {
+    .image{
+        width: 80vw;
+    }
+    .portada{
+        height: 70vh;
+    }
+}
 
 .flecha{
     transform: rotate(45deg);
