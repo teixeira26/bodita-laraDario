@@ -7,11 +7,11 @@ const RedSocial=()=>{
         <section>
             <div className="redSocialContainer">
             <img src="./assets/icono-instagram.svg" alt="" />
-            <h4>#FLORCHUYMARIDO</h4>
             <p>"¡Preparate para nuestro gran día!"
             <br/>
-            "Etiquetanos en Instagram con nuestro hashtag en tus fotos, reels o videos."</p>
-            <Button template='verde' texto='VER HASHTAG' url=''></Button>
+            "Te dejamos un drive para que subas todas tus fotos al otro día!"
+            </p>
+            <Button template='verde' texto='FOTOS' url='https://photos.app.goo.gl/m9BfpGRkrZrUpZCe6'></Button>
             </div>
         </section>
     )

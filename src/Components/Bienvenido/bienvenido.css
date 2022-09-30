@@ -1,6 +1,4 @@
-
-
-.container{
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -8,9 +6,9 @@
     color: white;
     width: 100vw;
     background-color: #83A26D;
-    padding: 50px;
-}
-.sectionBienvenidos{
-    background-color: #83A26D ;
+    padding: 80px;
 }
 
+.sectionBienvenidos {
+    background-color: #83A26D;
+}

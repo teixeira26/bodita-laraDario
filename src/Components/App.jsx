@@ -12,15 +12,14 @@ import Footer from './Footer/Footer.jsx';
 import './app.css'
 import StopWatch from './CuentaRegresiva/StopWatch.jsx';
 
-
 function App() {
   const ceremonia = {
     iconoIglesia:'./assets/icono-ceremonia.svg',
     tituloCeremonia:'CIVIL',
-    textoCeremonial1:`11 de Junio a las 18:00 horas en la Iglesia de los Capuchinos.`,
-    textoCeremonial2:'Buenos Aires 600-699, Córdoba.',
+    textoCeremonial1:`20 de octubre a las 9 hs en el Registro Civil.`,
+    textoCeremonial2:'Av. Independencia 2846, Mar del Plata.',
     textoCeremonial3:  'Recibí debajo las indicaciones para llegar.',
-    textoButton:'LLEGAR A LA CEREMONIA',
+    textoButton:'LLEGAR AL CIVIL',
     urlButton:'https://www.google.com/maps/place/Delegaci%C3%B3n+Registro+Provincial+de+las+Personas+-+Mar+del+Plata/@-38.0055898,-57.5767279,15z/data=!4m13!1m6!3m5!1s0x9584dea5c963e7f3:0x59d6e9e3191777ed!2sDelegaci%C3%B3n+Registro+Provincial+de+las+Personas+-+Mar+del+Plata!8m2!3d-38.0055898!4d-57.5602484!3m5!1s0x9584dea5c963e7f3:0x59d6e9e3191777ed!8m2!3d-38.0055898!4d-57.5602484!15sChxyZWdpc3RybyBjaXZpbCBpbmRlcGVuZGVuY2lhWh4iHHJlZ2lzdHJvIGNpdmlsIGluZGVwZW5kZW5jaWGSARNyZWdpc3RyYXRpb25fb2ZmaWNlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJSZW1VeU5tdG5SUkFC4AEA'
   }
 
