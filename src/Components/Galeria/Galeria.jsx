@@ -8,7 +8,7 @@ const Galeria =()=>{
                 <img src="./assets/1 (14)(1).jpg" alt="" />
                 <img src="./assets/1 (20).jpg" alt="" />
                 <img src="./assets/1 (22).jpg" alt="" />
-                <img src="./assets/1 (30).jpg" alt="" />
+                <img src="./assets/1 (26)(1).jpg" alt="" />
                 <img src="./assets/1 (34)(2).jpg" alt="" />
                 <img src="./assets/1 (36).jpg" alt="" />
             </div>

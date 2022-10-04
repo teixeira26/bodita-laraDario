@@ -7,6 +7,7 @@ class App extends React.Component {
   state = {
     abierto: true,
   }
+  
   abrirModal = () => {
     this.setState({ abierto: !this.state.abierto });
   }
@@ -35,7 +36,7 @@ class App extends React.Component {
                 DNI: 39966579 <br/>
                 Banco Galicia <br/><br/>
 
-                Para mayor facilidad tambien habra un cofre el día de la celebración
+                Si fuera mas cómodo para vos, también habrá un cofre el día de la celebración
               </ModalBody>
               <ModalFooter>
                 <Button color="secondary" onClick={() => this.props.setModalActive(false)}>Cerrar</Button>
