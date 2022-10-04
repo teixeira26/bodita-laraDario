@@ -1,6 +1,6 @@
 import React from 'react';
 import './popUp.css';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter} from 'reactstrap';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 
 class App extends React.Component {
@@ -9,7 +9,6 @@ class App extends React.Component {
   }
   abrirModal = () => {
     this.setState({ abierto: !this.state.abierto });
-    
   }
 
   render() {
@@ -19,29 +18,31 @@ class App extends React.Component {
       left: '50%',
       transform: 'translate(-50%, -50%)'
     }
+    
     console.log(this.props)
     return (
       <>
-        <div className="principal">
-          <div className="secundario">
+        <div >
+          <div >
+            <Modal isOpen={this.state.abierto} style={modalstyles}>
+              <ModalHeader className="principal">
+                DATOS BANCARIOS
+              </ModalHeader>
+              <ModalBody className="secundario">
+                Nombre del titular: Florencia Fernandez <br/>
+                CBU: 00701873-30004004704112 <br/>
+                Alias: CUENCA.CUPULA.FLAUTA <br/>
+                DNI: 39966579 <br/>
+                Banco Galicia <br/><br/>
 
-          </div></div>
-
-        <Modal isOpen={this.state.abierto} style={modalstyles}>
-          <ModalHeader >
-            DATOS BANCARIOS
-          </ModalHeader>
-          <ModalBody>
-              Nombre del titular: Florencia Fernandez
-              CBU: 456d4as65d4sa56
-              Alias: dsda-dsdsa-dsadsa
-              DNI: 123456789
-              Banco Galicia
-          </ModalBody>
-          <ModalFooter>
-            <Button color="secondary" onClick={()=>this.props.setModalActive(false)}>Cerrar</Button>
-          </ModalFooter>
-        </Modal>
+                Para mayor facilidad tambien habra un cofre el día de la celebración
+              </ModalBody>
+              <ModalFooter>
+                <Button color="secondary" onClick={() => this.props.setModalActive(false)}>Cerrar</Button>
+              </ModalFooter>
+            </Modal>
+          </div>
+        </div>
       </>
     )
   }

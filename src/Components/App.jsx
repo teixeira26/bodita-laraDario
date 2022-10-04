@@ -16,7 +16,7 @@ function App() {
   const ceremonia = {
     iconoIglesia:'./assets/icono-ceremonia.svg',
     tituloCeremonia:'CIVIL',
-    textoCeremonial1:`20 de octubre a las 9 hs en el Registro Civil.`,
+    textoCeremonial1:`20 de octubre a las 9:00 hs en el Registro Civil.`,
     textoCeremonial2:'Av. Independencia 2846, Mar del Plata.',
     textoCeremonial3:  'Recibí debajo las indicaciones para llegar.',
     textoButton:'LLEGAR AL CIVIL',
@@ -26,8 +26,8 @@ function App() {
   const fiesta ={
     iconoIglesia:'./assets/icono-fiesta.svg',
     titulofiesta:'FIESTA',
-    textofiestal1:'11 de Junio a las 18:00 horas en la Iglesia de los Capuchinos.',
-    textofiestal2:'Buenos Aires 600-699, Córdoba.',
+    textofiestal1:'12 de Noviembre a las 19:00 hs.',
+    textofiestal2:'Garcia Lorca 234, esquina Serrano, Mar del plata.',
     textofiestal3:  '¡Te esperamos!',
     textoButton:'LLEGAR A LA FIESTA',
     urlButton:'https://www.google.com/maps/place/Garc%C3%ADa+Lorca+234,+B7603EFF+Mar+del+Plata,+Provincia+de+Buenos+Aires/@-38.0806121,-57.5416059,17z/data=!3m1!4b1!4m5!3m4!1s0x9584e7462f48070d:0x4b5513f801c20b1d!8m2!3d-38.0806121!4d-57.5416059'

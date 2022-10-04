@@ -1,0 +1,12 @@
+.principal {
+    letter-spacing: 5px;
+    color: #83A26D;
+    text-align: center;
+}
+
+.secundario {
+    font-size: 19px;
+    font-style: italic;
+    text-align: center;
+    font-family: 'Calibri';
+}
