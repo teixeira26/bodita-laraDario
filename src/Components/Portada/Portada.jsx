@@ -16,7 +16,7 @@ const Portada = ()=>{
         <section>
             <div className='portada' ref={dados}>
                 <div className='flecha' style={{top:(window.screen.height - 300)+"px"}}></div>
-                <img className="image" src="./assets/Imagen2.png" alt="portada"  draggable={false}/>
+                <img className="image" src="./assets/imagen2.png" alt="portada"  draggable={false}/>
             </div>
         </section>
     )
