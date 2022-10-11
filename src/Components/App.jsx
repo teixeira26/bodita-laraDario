@@ -14,23 +14,23 @@ import StopWatch from './CuentaRegresiva/StopWatch.jsx';
 
 function App() {
   const ceremonia = {
-    iconoIglesia:'./assets/icono-ceremonia.svg',
-    tituloCeremonia:'CIVIL',
-    textoCeremonial1:`20 de octubre a las 9:00 hs en el Registro Civil.`,
-    textoCeremonial2:'Av. Independencia 2846, Mar del Plata.',
-    textoCeremonial3:  'Recibí debajo las indicaciones para llegar.',
-    textoButton:'LLEGAR AL CIVIL',
-    urlButton:'https://www.google.com/maps/place/Delegaci%C3%B3n+Registro+Provincial+de+las+Personas+-+Mar+del+Plata/@-38.0055898,-57.5767279,15z/data=!4m13!1m6!3m5!1s0x9584dea5c963e7f3:0x59d6e9e3191777ed!2sDelegaci%C3%B3n+Registro+Provincial+de+las+Personas+-+Mar+del+Plata!8m2!3d-38.0055898!4d-57.5602484!3m5!1s0x9584dea5c963e7f3:0x59d6e9e3191777ed!8m2!3d-38.0055898!4d-57.5602484!15sChxyZWdpc3RybyBjaXZpbCBpbmRlcGVuZGVuY2lhWh4iHHJlZ2lzdHJvIGNpdmlsIGluZGVwZW5kZW5jaWGSARNyZWdpc3RyYXRpb25fb2ZmaWNlmgEkQ2hkRFNVaE5NRzluUzBWSlEwRm5TVVJSZW1VeU5tdG5SUkFC4AEA'
+    iconoIglesia: './assets/icono-ceremonia.svg',
+    tituloCeremonia: 'CIVIL',
+    textoCeremonial1: `20 de Octubre a las 9:00 hs en el Registro Civil.`,
+    textoCeremonial2: 'Av. Independencia 2846, Mar del Plata.',
+    textoCeremonial3: 'Recibí debajo las indicaciones para llegar.',
+    textoButton: 'LLEGAR AL CIVIL',
+    urlButton: 'https://goo.gl/maps/ei3hqvECDrfj1ZHQ8'
   }
 
-  const fiesta ={
-    iconoIglesia:'./assets/icono-fiesta.svg',
-    titulofiesta:'FIESTA',
-    textofiestal1:'12 de Noviembre a las 19:00 hs.',
-    textofiestal2:'Garcia Lorca 234, esquina Serrano, Mar del plata.',
-    textofiestal3:  '¡Te esperamos!',
-    textoButton:'LLEGAR A LA FIESTA',
-    urlButton:'https://www.google.com/maps/place/Garc%C3%ADa+Lorca+234,+B7603EFF+Mar+del+Plata,+Provincia+de+Buenos+Aires/@-38.0806121,-57.5416059,17z/data=!3m1!4b1!4m5!3m4!1s0x9584e7462f48070d:0x4b5513f801c20b1d!8m2!3d-38.0806121!4d-57.5416059'
+  const fiesta = {
+    iconoIglesia: './assets/icono-fiesta.svg',
+    titulofiesta: 'FIESTA',
+    textofiestal1: '12 de Noviembre a las 16:00 hs.',
+    textofiestal2: 'Garcia Lorca 232, esquina Serrano, Mar del plata.',
+    textofiestal3: '¡Te esperamos!',
+    textoButton: 'LLEGAR A LA FIESTA',
+    urlButton: 'https://goo.gl/maps/JnzbNS2VktVutPG79'
   }
 
   return (
@@ -39,7 +39,7 @@ function App() {
       <Bienvenido></Bienvenido>
       <StopWatch></StopWatch>
       <section className='iconos'>
-        <CardMapa  icono={ceremonia.iconoIglesia} urlButton={ceremonia.urlButton} titulo={ceremonia.tituloCeremonia} textol1={ceremonia.textoCeremonial1} textol2={ceremonia.textoCeremonial2} textol3={ceremonia.textoCeremonial3} textoButton={ceremonia.textoButton}></CardMapa>
+        <CardMapa icono={ceremonia.iconoIglesia} urlButton={ceremonia.urlButton} titulo={ceremonia.tituloCeremonia} textol1={ceremonia.textoCeremonial1} textol2={ceremonia.textoCeremonial2} textol3={ceremonia.textoCeremonial3} textoButton={ceremonia.textoButton}></CardMapa>
         <CardMapa icono={fiesta.iconoIglesia} urlButton={fiesta.urlButton} titulo={fiesta.titulofiesta} textol1={fiesta.textofiestal1} textol2={fiesta.textofiestal2} textol3={fiesta.textofiestal3} textoButton={fiesta.textoButton}></CardMapa>
       </section>
       <Galeria></Galeria>

@@ -31,12 +31,11 @@ class App extends React.Component {
               </ModalHeader>
               <ModalBody className="secundario">
                 Nombre del titular: Florencia Fernandez <br/>
-                CBU: 00701873-30004004704112 <br/>
-                Alias: CUENCA.CUPULA.FLAUTA <br/>
-                DNI: 39966579 <br/>
-                Banco Galicia <br/><br/>
+                CBU: 0000003100034237182291 <br/>
+                Alias: floppy.fernandez.mp <br/>
+                Mercado Pago <br/><br/>
 
-                Si fuera mas cómodo para vos, también habrá un cofre el día de la celebración
+                Si fuera mas cómodo para vos, también habrá un cofre el día de la celebración 🎁
               </ModalBody>
               <ModalFooter>
                 <Button color="secondary" onClick={() => this.props.setModalActive(false)}>Cerrar</Button>
