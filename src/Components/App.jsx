@@ -29,7 +29,7 @@ function App() {
     textofiestal1: '12 de Noviembre a las 16:00 hs.',
     textofiestal2: 'falso 12221, lorem, ipsum lorem.',
     textofiestal3: '¡Te esperamos!',
-    textoButton: 'LLEGAR A LA FIESTA',
+    textoButton: 'LLEGAR A LA FIESTA', 
     urlButton: 'https://www.google.com.ar/maps/place/La+Casita+Loca/@34.6705515,-77.3440518,17z/data=!3m1!4b1!4m5!3m4!1s0x89a905b0579add6d:0x7e2abd40eefb0d04!8m2!3d34.6705471!4d-77.3418631'
   }
 
