@@ -3,14 +3,14 @@ const Galeria =()=>{
     return(
         <section className='galeriaSection'>
             <div className="galeriaContainer">
-                <img src="./assets/1 (27)(1).jpg" alt="" />
-                <img src="./assets/1 (4)(1).jpg" alt="" />
-                <img src="./assets/1 (14)(1).jpg" alt="" />
-                <img src="./assets/1 (20).jpg" alt="" />
-                <img src="./assets/1 (22).jpg" alt="" />
-                <img src="./assets/1 (26)(1).jpg" alt="" />
-                <img src="./assets/1 (34)(2).jpg" alt="" />
-                <img src="./assets/1 (36).jpg" alt="" />
+                <img src="./assets/1.jpg" alt="" />
+                <img src="./assets/2.jpg" alt="" />
+                <img src="./assets/3.jpg" alt="" />
+                <img src="./assets/4.jpg" alt="" />
+                <img src="./assets/5.jpg" alt="" />
+                <img src="./assets/6.jpg" alt="" />
+                <img src="./assets/7.jpg" alt="" />
+                <img src="./assets/8.jpg" alt="" />
             </div>
         </section>
     )

@@ -23,7 +23,7 @@ const RedSocial=()=>{
             <br/><br/>
             Te dejamos un drive para que subas todas tus fotos al otro día!
             </p>
-            <Button template='verde' texto='FOTOS' url='https://photos.app.goo.gl/m9BfpGRkrZrUpZCe6'></Button>
+            <Button template='verde' texto='FOTOS' url='https://docs.google.com/forms/d/e/1FAIpQLSfWFt_e66L9vBQa6JcUCa6h0il9nrNOiYuATXuGOwd-Lz9Mwg/viewform?usp=sf_link'></Button>
             </div>
         </section>
     )

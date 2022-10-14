@@ -17,20 +17,20 @@ function App() {
     iconoIglesia: './assets/icono-ceremonia.svg',
     tituloCeremonia: 'CIVIL',
     textoCeremonial1: `20 de Octubre a las 9:00 hs en el Registro Civil.`,
-    textoCeremonial2: 'Av. Independencia 2846, Mar del Plata.',
+    textoCeremonial2: 'Av. Falsa 123, lorem lorem.',
     textoCeremonial3: 'Recibí debajo las indicaciones para llegar.',
     textoButton: 'LLEGAR AL CIVIL',
-    urlButton: 'https://goo.gl/maps/ei3hqvECDrfj1ZHQ8'
+    urlButton: 'https://www.google.com.ar/maps/place/La+Casita+Loca/@34.6705515,-77.3440518,17z/data=!3m1!4b1!4m5!3m4!1s0x89a905b0579add6d:0x7e2abd40eefb0d04!8m2!3d34.6705471!4d-77.3418631'
   }
 
   const fiesta = {
     iconoIglesia: './assets/icono-fiesta.svg',
     titulofiesta: 'FIESTA',
     textofiestal1: '12 de Noviembre a las 16:00 hs.',
-    textofiestal2: 'Garcia Lorca 232, esquina Serrano, Mar del plata.',
+    textofiestal2: 'falso 12221, lorem, ipsum lorem.',
     textofiestal3: '¡Te esperamos!',
     textoButton: 'LLEGAR A LA FIESTA',
-    urlButton: 'https://goo.gl/maps/JnzbNS2VktVutPG79'
+    urlButton: 'https://www.google.com.ar/maps/place/La+Casita+Loca/@34.6705515,-77.3440518,17z/data=!3m1!4b1!4m5!3m4!1s0x89a905b0579add6d:0x7e2abd40eefb0d04!8m2!3d34.6705471!4d-77.3418631'
   }
 
   return (
