@@ -18,7 +18,7 @@ function App() {
     tituloCeremonia: 'CEREMONIA',
     textoCeremonial1: `11 de febrero 2023 a las 10:00hs en la Parroquia Cristo obrero`,
     textoCeremonial2: 'Japón 79, Rafael Castillo',
-    textoCeremonial3: 'Recibí debajo las indicaciones para llegar.',
+    textoCeremonial3: 'Recibí las indicaciones para llegar.',
     textoButton: 'LLEGAR A LA CEREMONIA',
     urlButton: 'https://www.google.com/maps/place/Jap%C3%B3n+79,+B1755EDA+Rafael+Castillo,+Provincia+de+Buenos+Aires/@-34.6926337,-58.611377,17z/data=!3m1!4b1!4m5!3m4!1s0x95bcc6fa8285ed03:0x2e6849ca5709e498!8m2!3d-34.6926337!4d-58.6091883'
   }
