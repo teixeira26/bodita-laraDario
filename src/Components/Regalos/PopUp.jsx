@@ -30,12 +30,12 @@ class App extends React.Component {
                 DATOS BANCARIOS
               </ModalHeader>
               <ModalBody className="secundario">
-                Nombre del titular: Florencia Fernandez <br/>
-                CBU: 0000003100034237182291 <br/>
-                Alias: floppy.fernandez.mp <br/>
+                Nombre del titular: Darío Ezequiel Latorre <br/>
+                CBU: 0000003100090919459141 <br/>
+                Alias: Dario.Latorre.mp <br/>
                 Mercado Pago <br/><br/>
 
-                Si fuera mas cómodo para vos, también habrá un cofre el día de la celebración 🎁
+                Como estamos preparando nuestro hogar, lo priorizamos y nos encantaria que seas parte colaborando ❤️
               </ModalBody>
               <ModalFooter>
                 <Button color="secondary" onClick={() => this.props.setModalActive(false)}>Cerrar</Button>

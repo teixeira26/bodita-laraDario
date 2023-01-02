@@ -11,19 +11,22 @@
 }
 
 .image{
-    width: 45vw;
+    width: 1000px;
     margin-top: -60px;
+    filter: contrast(250%);
 }
-
-@media (max-width:780px) {
-    .image{
-        width: 60vw;
-    }
+.marco{
+    padding-top:100px;
+    background-color: rgba(256,256,256, 0.5);
+    border-radius: 10px;
 }
 
 @media (max-width:533px) {
+    body{
+        overflow-x: hidden;
+    }
     .image{
-        width: 80vw;
+        width: 140vw;
     }
     .portada{
         height: 70vh;

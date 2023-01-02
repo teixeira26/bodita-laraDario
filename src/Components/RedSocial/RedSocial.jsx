@@ -15,7 +15,7 @@ const RedSocial=()=>{
         <section>
             <div className="redSocialContainer">
             <img src="./assets/icono-instagram.svg" alt="" />
-            <p> #Flopi&Luqui
+            <p> #Yamila&Dario
             <br/>
             ¡Preparate para nuestro gran día!
             <br/>
@@ -23,7 +23,7 @@ const RedSocial=()=>{
             <br/><br/>
             Te dejamos un drive para que subas todas tus fotos al otro día!
             </p>
-            <Button template='verde' texto='FOTOS' url='https://docs.google.com/forms/d/e/1FAIpQLSfWFt_e66L9vBQa6JcUCa6h0il9nrNOiYuATXuGOwd-Lz9Mwg/viewform?usp=sf_link'></Button>
+            <Button template='verde' texto='FOTOS' url='https://drive.google.com/drive/folders/14HpXR6a7Lj_0hxa2aNrih8RWdJYhRmB0'></Button>
             </div>
         </section>
     )

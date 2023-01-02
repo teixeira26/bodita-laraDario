@@ -8,7 +8,9 @@ const CardMapa = (props) => {
         <div className="containerCardMapa">
             <img src={`${icono}`} alt="" draggable={false} />
             <h4>{titulo}</h4>
+            <div style={{width: '100%'}}>
             <p>{textol1}<br />{textol2}<br />{textol3}</p>
+            </div>
             <Button texto={textoButton} template='verde' url={urlButton}></Button>
         </div>
     )
