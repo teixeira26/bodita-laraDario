@@ -1,6 +1,7 @@
 .galeriaContainer{
     display: grid;
     width: 90vw;
+    justify-items: center;
 
     grid-template-columns: repeat(auto-fit, minMax(250px, 1fr));
     
