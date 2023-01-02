@@ -45,7 +45,6 @@ function App() {
         <Galeria></Galeria>
       <Regalos></Regalos>
       <ConfirmarAsistencia></ConfirmarAsistencia>
-      <DressCode></DressCode>
       <RedSocial></RedSocial>
       <Gracias></Gracias>
       <Footer></Footer>
